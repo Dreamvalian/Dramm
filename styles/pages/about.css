@@ -1,0 +1,54 @@
+@import url(../style.css);
+
+.utility-wrapper {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding-left: 4rem;
+}
+
+.utility-container {
+  /* margin-top: 4rem; */
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin-bottom: 0;
+  padding: 5% 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.text-mono {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.utility-content {
+  max-width: 580px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+p {
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}

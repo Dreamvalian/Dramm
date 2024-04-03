@@ -1,0 +1,10 @@
+@import url(variable.css);
+
+.faq-section {
+  margin-top: 4rem;
+}
+
+h2 {
+  display: flex;
+  text-align: center;
+}

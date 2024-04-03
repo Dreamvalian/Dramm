@@ -1,0 +1,16 @@
+@import url(style.css);
+
+.footer {
+  width: 100%;
+  /* position: fixed; */
+  bottom: 0;
+  background-color: #fff;
+  z-index: 10;
+  padding: 1.5rem 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

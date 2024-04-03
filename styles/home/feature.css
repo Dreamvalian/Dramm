@@ -1,0 +1,39 @@
+@import url(variable.css);
+
+.product-feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.product-feature--image {
+  width: 50%;
+}
+
+.feature-row {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.feature-list {
+  list-style: none;
+  margin-top: 2em;
+}
+
+.feature-list--icon .feature-container {
+  display: flex;
+  align-items: center;
+}
+
+.feature-list--icon i {
+  text-align: center;
+  width: 58px;
+  font-size: 32px;
+  background: #4d3200;
+  color: #f9f9f9;
+  padding: 1rem;
+  line-height: 38px;
+  margin-right: 1rem;
+}

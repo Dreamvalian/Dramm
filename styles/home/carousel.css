@@ -1,0 +1,14 @@
+@import url(variable.css);
+
+.carousel-caption {
+  color: #333;
+  font-family: sans-serif;
+}
+
+.carousel-caption h5 {
+  font-size: 1.2rem;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+}
